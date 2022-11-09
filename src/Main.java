@@ -102,5 +102,21 @@ public class Main {
         // Eighth Task
         System.out.println(ANSI_GREEN+"Eighth TASK"+ANSI_RESET);
 
+        double salaryPerMonth1 = 67760;
+        double salaryPerMonth2 = 83690;
+        double salaryPerMonth3 = 76230;
+        double increaseRate = 1.1;
+
+        double newSalaryPerMonth1 = salaryPerMonth1 * increaseRate;
+        double newSalaryPerMonth2 = salaryPerMonth2 * increaseRate;
+        double newSalaryPerMonth3 = salaryPerMonth3 * increaseRate;
+
+        double yearSupplement1 = (newSalaryPerMonth1-salaryPerMonth1)*12;
+        double yearSupplement2 = (newSalaryPerMonth2-salaryPerMonth2)*12;
+        double yearSupplement3 = (newSalaryPerMonth3-salaryPerMonth3)*12;
+
+        System.out.println("Маша теперь получает "+newSalaryPerMonth1+" рублей. Годовой доход вырос на "+yearSupplement1+" рублей");
+        System.out.println("Денис теперь получает "+newSalaryPerMonth2+" рублей. Годовой доход вырос на "+yearSupplement2+" рублей");
+        System.out.println("Кристина теперь получает "+newSalaryPerMonth3+" рублей. Годовой доход вырос на "+yearSupplement3+" рублей");
     }
 }
