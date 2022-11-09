@@ -63,5 +63,33 @@ public class Main {
         int totalBrownBanks= numberOfClass * brownbanksPer1Class;
 
         System.out.println("В школе, где "+numberOfClass+" классов, нужно "+totalWiteBanks+" банок белой краски и "+totalBrownBanks+" банок коричневой краски");
+
+        // Sixth Task
+        System.out.println(ANSI_GREEN+"Sixth TASK"+ANSI_RESET);
+
+        int bananaCount = 5;
+        int oneBananaWeight = 80;
+        int milkCount = 2;
+        int oneMilkWeight = 105;
+        int icecreamCount = 2;
+        int oneIceCreamWeight = 100;
+        int eggsCount = 4;
+        int oneEggsWeight = 70;
+
+        int totalGramWeight = bananaCount*oneBananaWeight + milkCount*oneMilkWeight+icecreamCount*oneIceCreamWeight+eggsCount*oneEggsWeight;
+        double totalKiloWeight = (double)totalGramWeight / 1000;
+
+        System.out.println("Общий вес спорт-завтрака в граммах: "+totalGramWeight+" грамм");
+        System.out.println("Вес того же спорт-завтрака в килограммах: "+totalKiloWeight+" кг.");
+
+
+
+        //  Seventh
+        System.out.println(ANSI_GREEN+"Seventh TASK"+ANSI_RESET);
+
+
+        // Eighth Task
+        System.out.println(ANSI_GREEN+"Eighth TASK"+ANSI_RESET);
+
     }
 }
