@@ -37,5 +37,22 @@ public class Main {
         int totalPaperSheets = 480;
         int numberSheetsPerStudent =totalPaperSheets / (studentNumber1+studentNumber2+studentNumber3);
         System.out.println("На каждого ученика рассчитано "+numberSheetsPerStudent+" листов бумаги");
+
+        // Fourth Task
+        System.out.println(ANSI_GREEN+"Fourth TASK"+ANSI_RESET);
+        int efficiencyPer2min = 16;
+        int twoMinutes = 2;
+        int twentyMinutes = 20;
+        int day = twentyMinutes*3*24;
+        int threeDays = day*3;
+        int month = day*30;
+        int efficiencyPer1min = efficiencyPer2min / twoMinutes;
+
+        System.out.println("За "+"20 минут"+" машина произвела бутылок "+(efficiencyPer1min*twentyMinutes)+" штук");
+        System.out.println("За "+"сутки"+" машина произвела бутылок "+(efficiencyPer1min*day)+" штук");
+        System.out.println("За "+"3 дня"+" машина произвела бутылок "+(efficiencyPer1min*threeDays)+" штук");
+        System.out.println("За "+"1 месяц"+" машина произвела бутылок "+(efficiencyPer1min*month)+" штук");
+
+
     }
 }
