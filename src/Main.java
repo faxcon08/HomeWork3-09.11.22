@@ -84,9 +84,20 @@ public class Main {
 
 
 
-        //  Seventh
+        //  Seventh Task
         System.out.println(ANSI_GREEN+"Seventh TASK"+ANSI_RESET);
 
+        int excessWeight = 7000;
+        int minLoss = 250;
+        int maxLoss = 500;
+
+        int daysWithMinLoss = excessWeight / minLoss;
+        int daysWithMaxLoss = excessWeight / maxLoss;
+        int averageDays = (daysWithMaxLoss+daysWithMinLoss)/2;
+
+        System.out.println("Потребутеся "+daysWithMinLoss+" дней для сбросе веса по 250 грамм в сутки");
+        System.out.println("Потребутеся "+daysWithMaxLoss+" дней для сбросе веса по 500 грамм в сутки");
+        System.out.println("В серднем потребуется "+averageDays+" дней на похудение");
 
         // Eighth Task
         System.out.println(ANSI_GREEN+"Eighth TASK"+ANSI_RESET);
