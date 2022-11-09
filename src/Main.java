@@ -1,5 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!!");
+        final String ANSI_RESET = "\u001B[0m"; // черный цвет в консоле
+        final String ANSI_GREEN = "\u001B[32m"; // зеленый цвет консоли
+
+        // First Task
+        System.out.println(ANSI_GREEN + "First TASK" + ANSI_RESET);
+
+        byte myByte = 127;
+        short myShort = 32670;
+        int myInt = 2123456789;
+        long myLong = 9123456789123456789L;
+        float myFloat = 1234.1234567F;
+        double myDouble= 1234.123456789;
+
+        System.out.println("Значение переменной "+"myByte"+ " c типом "+"byte"+" равно "+myByte);
+        System.out.println("Значение переменной "+"myShort"+ " c типом "+"short"+" равно "+myShort);
+        System.out.println("Значение переменной "+"myInt"+ " c типом "+"int"+" равно "+myInt);
+        System.out.println("Значение переменной "+"myLong"+ " c типом "+"long"+" равно "+myLong);
+        System.out.println("Значение переменной "+"myFloat"+ " c типом "+"float"+" равно "+myFloat);
+        System.out.println("Значение переменной "+"myDouble"+ " c типом "+"double"+" равно "+myDouble);
+
+
     }
 }
