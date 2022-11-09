@@ -20,6 +20,15 @@ public class Main {
         System.out.println("Значение переменной "+"myFloat"+ " c типом "+"float"+" равно "+myFloat);
         System.out.println("Значение переменной "+"myDouble"+ " c типом "+"double"+" равно "+myDouble);
 
-
+        // Second Task
+        System.out.println(ANSI_GREEN+"Second TASK"+ANSI_RESET);
+        double myDouble2 = 27.12;
+        long myLong2 = 987678965549L;
+        float myFloat2 = 2.786F;
+        boolean myBoolean2 = false;
+        int myInt2  = 569;
+        short myShort2 = -159;
+        int myInteger = 27897;
+        byte myByte2 = 67;
     }
 }
