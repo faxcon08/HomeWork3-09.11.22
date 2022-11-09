@@ -53,6 +53,15 @@ public class Main {
         System.out.println("За "+"3 дня"+" машина произвела бутылок "+(efficiencyPer1min*threeDays)+" штук");
         System.out.println("За "+"1 месяц"+" машина произвела бутылок "+(efficiencyPer1min*month)+" штук");
 
+        // Fifth Task
+        System.out.println(ANSI_GREEN+"Fifth TASK"+ANSI_RESET);
+        int totalNumberBanks = 120;
+        int witeBanksPer1Class = 2;
+        int brownbanksPer1Class = 4;
+        int numberOfClass = totalNumberBanks / (witeBanksPer1Class+brownbanksPer1Class);
+        int totalWiteBanks = numberOfClass * witeBanksPer1Class;
+        int totalBrownBanks= numberOfClass * brownbanksPer1Class;
 
+        System.out.println("В школе, где "+numberOfClass+" классов, нужно "+totalWiteBanks+" банок белой краски и "+totalBrownBanks+" банок коричневой краски");
     }
 }
