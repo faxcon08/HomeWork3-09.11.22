@@ -30,5 +30,12 @@ public class Main {
         short myShort2 = -159;
         int myInteger = 27897;
         byte myByte2 = 67;
+
+        // Third Task
+        System.out.println(ANSI_GREEN+"Third TASK"+ANSI_RESET);
+        int studentNumber1 = 23, studentNumber2 = 27, studentNumber3 = 30;
+        int totalPaperSheets = 480;
+        int numberSheetsPerStudent =totalPaperSheets / (studentNumber1+studentNumber2+studentNumber3);
+        System.out.println("На каждого ученика рассчитано "+numberSheetsPerStudent+" листов бумаги");
     }
 }
